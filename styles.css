@@ -102,3 +102,13 @@ h1 {
 .btn:hover, .btn:active {
     transition-duration: 1000ms;
 }
+
+@media (max-width: 425px) {
+    .score-box {
+        flex-direction: column;
+    }
+    .btn {
+        font-size: 1.1rem;
+    }
+    
+}
